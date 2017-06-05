@@ -1,0 +1,55 @@
+body{
+	margin:10px;
+	background-color:red;
+}
+h3{
+	text-align: center;
+	color: orange;
+}
+button{
+	margin-top: 20px;
+}
+
+.hiphop{
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Bangers', cursive, Helvetica, Arial, Sans-serif;
+	
+}
+
+.hangman{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Nosifer', cursive, Helvetica, Arial, Sans-serif;
+}
+.yellowFont{
+	color: yellow;
+}
+#letters{
+	text-align: center;
+}
+#letters a{
+	font-family: 'Nosifer', cursive, Helvetica, Arial, Sans-serif;
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 1px;
+	margin:.2em;
+	padding: 1px;
+	cursor: pointer;
+}
+
+#letters a:hover{
+	color: orange;
+}
+#letters a .deactivated{
+	color:black;
+	text-decoration: underline;
+}
+
+.gameArea{ 
+	margin: 15px 15px 15px 5px;
+	background-color: orange;
+	height: 10em;
+	width: 20em;
+}

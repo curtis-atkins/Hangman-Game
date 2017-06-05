@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hip-Hop Hangman Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">	
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Holtwood+One+SC|Nosifer" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div>
+					<h1 class="hiphop"> HIP-HOP </h1>
+					<h2 class="hangman">HANGMAN</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div id="start">
+	<div class="row">
+			<div class="col-lg-12">		
+					<button type="button" class="btn btn-default center-block" onkeyup="gameStart()">Click Here To Get Started!</button>
+			</div>
+		</div>
+</div>
+<div class="container" id="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+					<p class="yellowFont">Wins: 
+						<span id="wins">0</span>
+					</p>
+					<p class="yellowFont">Guesses Left: 
+						<span id="guessesLeft">6</span>
+					<br>
+					There are 
+						<span id="numLetters">0</span>
+					letters in this word.
+					</p>
+					<p class="yellowFont">Already Guessed: 
+						<span id="alreadyGuessed">""</span>
+					</p>
+					<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div>
+					<h1 id="WORD"> </h1>
+				</div>
+				<div id="letters">
+
+					<button id="a" class="btn btn-default">A</button>
+					<button id="b" class="btn btn-default">B</button>
+					<button id="c" class="btn btn-default">C</button>
+					<button id="d" class="btn btn-default">D</button>
+					<button id="e" class="btn btn-default">E</button>
+					<button id="f" class="btn btn-default">F</button>
+					<button id="g" class="btn btn-default">G</button>
+					<button id="h" class="btn btn-default">H</button>
+					<button id="i" class="btn btn-default">I</button>
+					<button id="j" class="btn btn-default">J</button>
+					<button id="k" class="btn btn-default">K</button>
+					<button id="l" class="btn btn-default">L</button>
+					<button id="m" class="btn btn-default">M</button>
+					<br>
+					<br>
+					<button id="n" class="btn btn-default">N</button>
+					<button id="o" class="btn btn-default">O</button>
+					<button id="p" class="btn btn-default">P</button>
+					<button id="q" class="btn btn-default">Q</button>
+					<button id="r" class="btn btn-default">R</button>
+					<button id="s" class="btn btn-default">S</button>
+					<button id="t" class="btn btn-default">T</button>
+					<button id="u" class="btn btn-default">U</button>
+					<button id="v" class="btn btn-default">V</button>
+					<button id="w" class="btn btn-default">W</button>
+					<button id="x" class="btn btn-default">X</button>
+					<button id="y" class="btn btn-default">Y</button>
+					<button id="z" class="btn btn-default">Z</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="gameArea">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script
+     src="https://code.jquery.com/jquery-3.2.1.js"
+     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+     crossorigin="anonymous">
+    </script>
+<script type="text/javascript" src="assets/javascript/game.js">
+</script>
+
+</body>
+</html>
